@@ -15,7 +15,7 @@ Com certeza foi minha melhor experiência até agora com o JavaScript. Aprendi b
 
 ## Resolução do exercício
 
-- Site da resolução: https://xlraullx.github.io/fetch-github-API/
+- Clique aqui para ver o resultado final >>> https://xlraullx.github.io/fetch-github-API/
 
 ## Contato
 <p align="center">
