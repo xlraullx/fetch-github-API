@@ -8,7 +8,6 @@ const screen = {
                                             <p>${user.bio ?? 'Não possui bio cadastrada 😪'}</p>
                                         </div>
                                       </div>`
-        
 
         let repositoriesItens = ''
 
@@ -20,6 +19,9 @@ const screen = {
                                                 <ul>${repositoriesItens}</ul>
                                             </div>`
         }
+    },
+    renderNotFound(){
+        this.userProfile.innerHTML = `<h3>Usuário não encontrado</h3>`
     }
 }
 
