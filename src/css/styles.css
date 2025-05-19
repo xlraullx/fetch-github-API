@@ -142,6 +142,27 @@ main {
   display: none;
 }
 
+.container .repositories ul li p{
+ margin-bottom: -10px;
+}
+
+.container .repositories ul li span {
+  background-color: rgb(104, 0, 165);
+  color: #fff;
+  padding: 3px;
+  border-radius: 7px;
+}
+
+/* EVENTS */
+
+.container .events ul li p{
+  color: rgb(100, 100, 100);
+}
+
+.container .events ul li strong{
+  color: #000;
+}
+
 @media (max-width: 1280px) {
   .container {
     flex-direction: column;
@@ -181,5 +202,18 @@ main {
   {
     width: 100%;
     padding: 0;
+  }
+
+  .container .profile-data .repositories ul li span{
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .container .profile-data .repositories ul li p{
+    font-size: 20px;
+  }
+
+  .container .events ul li strong{
+    display: block;
   }
 }
