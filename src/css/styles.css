@@ -181,6 +181,17 @@ main {
 }
 
 @media (max-width: 768px) {
+  .container .profile-data .info img{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .container .profile-data .info .data{
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
+
   .container header #input-search,
   .container header #btn-search
   {
@@ -198,8 +209,7 @@ main {
   }
 
   .container .profile-data .info img,
-  .container .profile-data .info .data
-  {
+  .container .profile-data .info .data{
     width: 100%;
     padding: 0;
   }
