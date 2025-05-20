@@ -17,8 +17,6 @@ const user = {
     },
     setRepositories(repositories){
         this.repositories = repositories
-        
-        console.log(this.repositories)
     },
     setEvents(events){
         this.events = events.filter(event => {
